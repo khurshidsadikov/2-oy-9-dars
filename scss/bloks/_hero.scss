@@ -34,3 +34,23 @@
         margin: 0;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .hero{
+        padding: 111px 24px;
+    }
+
+    .content{
+        //max-width: 279px;
+        align-items: center;
+
+        &__title{
+            font-size: 28px;
+        }
+
+        &__description{
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+}
