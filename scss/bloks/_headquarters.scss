@@ -1,0 +1,61 @@
+.headquarters__title{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding-left: 85px;
+    //padding-right: 85px;
+    margin: 0;
+}
+
+.headquarters{
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 168px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__type{
+        width: 30%;
+        
+        &__img{
+            margin-bottom: 46px;
+            margin-top: 72px;
+        }
+        
+        &__title{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+            padding: 0;
+            margin: 0;
+        }
+
+        &__description{
+            list-style: none;
+            padding: 0;
+
+            &__item{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+
+                &__adress{
+                    font-style: normal;
+                }
+
+                &__tel{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
